@@ -51,7 +51,8 @@ margin-bottom: 50px;
 #button-start {
     height: 100px; 
     width: 150px;
-    margin: 100px;
+    min-width: 30px ;
+    margin: 100px 30px;
     border: 2px solid gray;
  border-right: 5px solid black;
   border-bottom: 5px solid black;
@@ -64,7 +65,8 @@ margin-bottom: 50px;
 #button-stop{
  height: 100px; 
     width: 150px;
-    margin: 100px;
+    min-width: 30px ;
+    margin: 100px 30px;
     border: 2px solid gray;
  border-right: 5px solid black;
   border-bottom: 5px solid black
@@ -72,7 +74,8 @@ margin-bottom: 50px;
 #button-reset{
 height: 100px; 
     width: 150px;
-    margin: 100px;
+    min-width: 30px ;
+    margin: 100px 30px;
     border: 2px solid gray;
  border-right: 5px solid black;
   border-bottom: 5px solid black
