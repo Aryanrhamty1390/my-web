@@ -28,10 +28,10 @@
 
 .time {
     width: 99%;
-    height: 30svh;
+    height: 25svh;
     position: absolute;
     top: 80svh;
-    background-color: black;
+    background-color:black;
     text-align: center;
 }
 
