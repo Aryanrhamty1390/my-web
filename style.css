@@ -1,29 +1,32 @@
-
-.wrapper{
+.wrapper {
     display: inline-block;
     text-align: right;
     background-color: aquamarine;
     width: 80%;
     height: 80svh;
-position: relative;
-left: 20%;
-bottom: 80.7svh;
-text-align: center;
+    position: relative;
+    left: 20%;
+    bottom: 80.7svh;
+    text-align: center;
 }
-.photo{
+
+.photo {
     display: inline-block;
     width: 20%;
     height: 80svh;
 }
-.back_photo{
+
+.back_photo {
     width: 100%;
     height: 100%;
 }
-.background_photo{
+
+.background_photo {
     width: 100%;
     height: 100%;
 }
-.time{
+
+.time {
     width: 99%;
     height: 20svh;
     position: absolute;
@@ -31,67 +34,84 @@ text-align: center;
     background-color: yellow;
     text-align: center;
 }
+
 .time h2 {
     color: darkorange;
     font-weight: 900;
-font-size: 34px;
+    font-size: 34px;
 }
+
 .wrapper h1 {
     font-size: 45px;
 }
+
 .wrapper h2 {
-        font-weight: 900;
-font-size: 34px;
-margin-bottom: 50px;
+    font-weight: 900;
+    font-size: 34px;
+    margin-bottom: 50px;
 }
+
 .wrapper p {
     font-size: 28px;
     margin-bottom: 20px;
 }
+
 #button-start {
-    height: 100px; 
-    width: 150px;
-    min-width: 30px ;
-    margin: 100px 30px;
+    display: inline-block;
+    height: 100px;
+    width: 15%;
     border: 2px solid gray;
- border-right: 5px solid black;
-  border-bottom: 5px solid black;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    position: relative;
+    right: 10%;
+    top: 20%;
 }
+
 #button:hover {
-     border: 2px solid gray;
-     border-left: 5px solid black;
-      border-top: 5px solid black;
-}
-#button-stop{
- height: 100px; 
-    width: 150px;
-    min-width: 30px ;
-    margin: 100px 30px;
     border: 2px solid gray;
- border-right: 5px solid black;
-  border-bottom: 5px solid black
+    border-left: 5px solid black;
+    border-top: 5px solid black;
 }
-#button-reset{
-height: 100px; 
-    width: 150px;
-    min-width: 30px ;
-    margin: 100px 30px;
+
+#button-stop {
+    display: inline-block;
+    height: 100px;
+    width: 15% ;
     border: 2px solid gray;
- border-right: 5px solid black;
-  border-bottom: 5px solid black
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    position: relative;
+     top: 20%;
+    right: auto;
 }
+
+#button-reset {
+    display: inline-block;
+    height: 100px;
+    width: 15%;
+    border: 2px solid gray;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    position: relative;
+    top: 20%;
+    left: 10%;
+}
+
 #button-reset:hover {
-     border: 2px solid gray;
-     border-left: 5px solid black;
-      border-top: 5px solid black;
+    border: 2px solid gray;
+    border-left: 5px solid black;
+    border-top: 5px solid black;
 }
+
 #button-stop:hover {
-     border: 2px solid gray;
-     border-left: 5px solid black;
-      border-top: 5px solid black;
+    border: 2px solid gray;
+    border-left: 5px solid black;
+    border-top: 5px solid black;
 }
+
 #button-start:hover {
-     border: 2px solid gray;
-     border-left: 5px solid black;
-     border-top: 5px solid black;
+    border: 2px solid gray;
+    border-left: 5px solid black;
+    border-top: 5px solid black;
 }
